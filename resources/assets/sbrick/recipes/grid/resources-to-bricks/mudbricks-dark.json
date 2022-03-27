@@ -1,0 +1,38 @@
+[
+  {
+    "ingredientPattern": "G_G,CLC,G_G",
+    "ingredients": {
+      "G": { "type": "item", "code": "game:drygrass", "quantity": 2 },
+      "C": { "type": "item", "code": "game:clay-*", "quantity": 2 },
+      "L": { "type": "block", "code": "game:soil-*-none", "allowedVariants": ["low", "medium"] }
+    },
+    "width": 3,
+    "height": 3,
+    "recipeGroup": 2,
+    "output": { "type": "item", "code": "sbrick-mud-dark-nostone-nofert", "quantity": 16 }
+  },
+  {
+    "ingredientPattern": "G_G,CLC,G_G",
+    "ingredients": {
+      "G": { "type": "item", "code": "game:drygrass", "quantity": 2 },
+      "C": { "type": "item", "code": "game:clay-*", "quantity": 2 },
+      "L": { "type": "item", "code": "sbrick-soil-novar-nostone-*", "quantity": 4, "allowedVariants": ["low", "medium"] }
+    },
+    "width": 3,
+    "height": 3,
+    "recipeGroup": 3,
+    "output": { "type": "item", "code": "sbrick-mud-dark-nostone-nofert", "quantity": 16 }
+  },
+  {
+    "ingredientPattern": "G_G,CLC,G_G",
+    "ingredients": {
+      "G": { "type": "item", "code": "game:drygrass" },
+      "C": { "type": "item", "code": "game:clay-*" },
+      "L": { "type": "item", "code": "sbrick-soil-novar-nostone-*", "quantity": 2, "allowedVariants": ["low", "medium"] }
+    },
+    "width": 3,
+    "height": 3,
+    "recipeGroup": 4,
+    "output": { "type": "item", "code": "sbrick-mud-dark-nostone-nofert", "quantity": 8 }
+  }
+]

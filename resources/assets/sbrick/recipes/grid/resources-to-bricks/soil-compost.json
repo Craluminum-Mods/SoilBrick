@@ -1,0 +1,11 @@
+{
+  "ingredientPattern": "CCC,CSC,CCC",
+  "ingredients": {
+    "C": { "type": "item", "code": "game:compost" },
+    "S": { "type": "item", "code": "sbrick-soil-novar-nostone-medium", "quantity": 4 }
+  },
+  "recipeGroup": 2,
+  "width": 3,
+  "height": 3,
+  "output": { "type": "block", "code": "game:soil-compost-none" }
+}

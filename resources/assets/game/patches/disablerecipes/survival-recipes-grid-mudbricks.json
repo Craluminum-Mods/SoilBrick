@@ -1,0 +1,14 @@
+[
+  {
+    "op": "replace",
+    "path": "/0/enabled",
+    "value": false,
+    "file": "recipes/grid/mudbricks.json"
+  },
+  {
+    "op": "replace",
+    "path": "/1/enabled",
+    "value": false,
+    "file": "recipes/grid/mudbricks.json"
+  }
+]

@@ -1,0 +1,12 @@
+{
+  "ingredientPattern": "LM,S_",
+  "ingredients": {
+    "L": { "type": "item", "code": "game:stone-*", "name": "rock", "quantity": 3 },
+    "M": { "type": "item", "code": "game:stone-*", "name": "rock" },
+    "S": { "type": "item", "code": "sbrick-soil-novar-nostone-*", "quantity": 4 }
+  },
+	"recipeGroup": 2,
+  "width": 2,
+  "height": 2,
+  "output": { "type": "block", "code": "game:stonepathstairs-up-north-free" }
+}

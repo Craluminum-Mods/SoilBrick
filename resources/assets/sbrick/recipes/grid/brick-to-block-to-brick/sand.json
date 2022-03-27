@@ -1,0 +1,64 @@
+[
+  {
+    "ingredientPattern": "BB,BB",
+    "ingredients": {
+      "B": {
+        "type": "item",
+        "code": "sbrick-sand-novar-*-nofert",
+        "name": "rock",
+        "allowedVariants": [
+          "andesite",
+          "chalk",
+          "chert",
+          "conglomerate",
+          "limestone",
+          "claystone",
+          "granite",
+          "sandstone",
+          "shale",
+          "basalt",
+          "peridotite",
+          "phyllite",
+          "slate",
+          "bauxite"
+        ]
+      }
+    },
+    "width": 2,
+    "height": 2,
+    "recipeGroup": 1,
+    "output": { "type": "block", "code": "game:sand-{rock}" }
+  },
+  {
+    "ingredientPattern": "SF",
+    "ingredients": {
+      "F": {
+        "type": "block",
+        "code": "game:sand-*",
+        "name": "rock",
+        "allowedVariants": [
+          "andesite",
+          "chalk",
+          "chert",
+          "conglomerate",
+          "limestone",
+          "claystone",
+          "granite",
+          "sandstone",
+          "shale",
+          "basalt",
+          "peridotite",
+          "phyllite",
+          "slate",
+          "bauxite"
+        ]
+      },
+      "S": { "type": "item", "code": "game:shovel-*", "isTool": true }
+    },
+    "shapeless": true,
+    "width": 1,
+    "height": 2,
+    "recipeGroup": 1,
+    "output": { "type": "item", "code": "sbrick-sand-novar-{rock}-nofert", "quantity": 4 }
+  }
+]

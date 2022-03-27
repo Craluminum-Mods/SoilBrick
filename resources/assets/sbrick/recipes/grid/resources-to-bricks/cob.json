@@ -1,0 +1,46 @@
+[
+  {
+    "ingredientPattern": "GD",
+    "ingredients": {
+      "G": { "type": "item", "code": "game:drygrass", "quantity": 5 },
+      "D": { "type": "block", "code": "game:soil-*", "quantity": 4 }
+    },
+    "width": 2,
+    "height": 1,
+    "recipeGroup": 2,
+    "output": { "type": "item", "code": "sbrick-cob-novar-nostone-nofert", "quantity": 40 }
+  },
+  {
+    "ingredientPattern": "GD",
+    "ingredients": {
+      "G": { "type": "item", "code": "game:drygrass", "quantity": 5 },
+      "D": { "type": "item", "code": "sbrick-soil-novar-nostone-*", "quantity": 16 }
+    },
+    "width": 2,
+    "height": 1,
+    "recipeGroup": 3,
+    "output": { "type": "item", "code": "sbrick-cob-novar-nostone-nofert", "quantity": 40 }
+  },
+  {
+    "ingredientPattern": "GDG,DGD,GDG",
+    "ingredients": {
+      "G": { "type": "item", "code": "game:drygrass" },
+      "D": { "type": "block", "code": "game:soil-*" }
+    },
+    "width": 3,
+    "height": 3,
+    "recipeGroup": 4,
+    "output": { "type": "item", "code": "sbrick-cob-novar-nostone-nofert", "quantity": 40 }
+  },
+  {
+    "ingredientPattern": "GDG,DGD,GDG",
+    "ingredients": {
+      "G": { "type": "item", "code": "game:drygrass" },
+      "D": { "type": "item", "code": "sbrick-soil-novar-nostone-*", "quantity": 4 }
+    },
+    "width": 3,
+    "height": 3,
+    "recipeGroup": 5,
+    "output": { "type": "item", "code": "sbrick-cob-novar-nostone-nofert", "quantity": 40 }
+  }
+]

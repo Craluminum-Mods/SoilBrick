@@ -1,0 +1,17 @@
+[
+  {
+    "op": "add",
+    "path": "/drops",
+    "value": [
+      {
+        "type": "item",
+        "code": "sbrick:sbrick-packeddirt-novar-nostone-nofert",
+        "quantity": {
+          "avg": 3.5,
+          "var": 0.5
+        }
+      }
+    ],
+    "file": "blocktypes/soil/packeddirt.json"
+  }
+]

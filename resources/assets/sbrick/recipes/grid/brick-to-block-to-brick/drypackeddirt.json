@@ -1,0 +1,24 @@
+[
+  {
+    "ingredientPattern": "BB,BB",
+    "ingredients": {
+      "B": { "type": "item", "code": "sbrick-drypackeddirt-novar-nostone-nofert" }
+    },
+    "width": 2,
+    "height": 2,
+    "recipeGroup": 1,
+    "output": { "type": "block", "code": "game:drypackeddirt" }
+  },
+  {
+    "ingredientPattern": "SF",
+    "ingredients": {
+      "F": { "type": "block", "code": "game:drypackeddirt" },
+      "S": { "type": "item", "code": "game:shovel-*", "isTool": true }
+    },
+    "shapeless": true,
+    "width": 1,
+    "height": 2,
+    "recipeGroup": 1,
+    "output": { "type": "item", "code": "sbrick-drypackeddirt-novar-nostone-nofert", "quantity": 4 }
+  }
+]

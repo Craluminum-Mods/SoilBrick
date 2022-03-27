@@ -1,0 +1,80 @@
+{
+  "code": "sbrick",
+  "maxStackSize": 256,
+  "creativeinventory": { "sbrick": ["*"] },
+  "attributes": {
+    "handbook": { "groupBy": ["sbrick-{material}-*"] }
+  },
+  "behaviors": [
+    {
+      "name": "GroundStorable",
+      "properties": {
+        "layout": "Stacking",
+        "placeRemoveSound": "game:sounds/block/dirt",
+        "stackingModel": "game:block/peatpile",
+        "tessQuantityElements": 1,
+        "stackingCapacity": 32,
+        "transferQuantity": 4,
+        "bulkTransferQuantity": 8,
+        "collisionBox": { "x1": 0.0625, "y1": 0, "z1": 0, "x2": 0.875, "y2": 0.25, "z2": 1 },
+        "cbScaleYByLayer": 0.125
+      }
+    }
+  ],
+  "variantGroups": [
+    { "code": "material", "states": ["soil", "cob", "mud", "strawbedding", "packeddirt", "muddygravel", "gravel", "sand", "drypackeddirt"] },
+    { "code": "variant", "states": ["light", "dark", "novar"] },
+    { "code": "rock", "loadFromProperties": "block/rock", "states": ["nostone"] },
+    { "code": "fertility", "loadFromProperties": "abstract/fertility", "states": ["nofert"] }
+  ],
+  "allowedVariants": [
+    "@.*-soil-novar-nostone-(verylow|low|medium|compost|high)",
+    "@.*-(cob|strawbedding|packeddirt|muddygravel|drypackeddirt)-novar-nostone-nofert",
+    "@.*-mud-(light|dark)-nostone-nofert",
+    "@.*-(gravel|sand)-novar-.*-nofert"
+  ],
+  "skipVariants": ["@.*-(gravel|sand)-novar-nostone-nofert"],
+  "shape": { "base": "game:block/peatbrick" },
+  "textures": {
+    "allByType": {
+      "*-soil-*": { "base": "game:block/soil/fert{fertility}" },
+      "*-mud-*": { "base": "game:block/soil/mudbrick/{variant}*" },
+      "*-cob-*": { "base": "game:block/soil/cob/normal*" },
+      "@.*-(strawbedding|packeddirt|drypackeddirt)-.*": { "base": "game:block/soil/flooring/{material}1*" },
+      "*-muddygravel-*": { "base": "game:block/soil/{material}*" },
+      "@.*-(gravel|sand)-.*": { "base": "game:block/stone/{material}/{rock}" }
+    },
+    "0ByType": {
+      "*-soil-*": { "base": "game:block/soil/fert{fertility}" },
+      "*-mud-*": { "base": "game:block/soil/mudbrick/{variant}*" },
+      "*-cob-*": { "base": "game:block/soil/cob/normal*" },
+      "@.*-(strawbedding|packeddirt|drypackeddirt)-.*": { "base": "game:block/soil/flooring/{material}1*" },
+      "*-muddygravel-*": { "base": "game:block/soil/{material}*" },
+      "@.*-(gravel|sand)-.*": { "base": "game:block/stone/{material}/{rock}" }
+    }
+  },
+  "guiTransform": {
+    "rotate": true,
+    "translation": { "x": 3, "y": 0, "z": 0 },
+    "rotation": { "x": -25, "y": 45, "z": 0 },
+    "origin": { "x": 0.5, "y": 0, "z": 0.5 },
+    "scale": 2.65
+  },
+  "groundTransform": {
+    "translation": { "x": 0, "y": 0, "z": 0 },
+    "rotation": { "x": 0, "y": 0, "z": 0 },
+    "origin": { "x": 0.5, "y": 0, "z": 0.5299 },
+    "scale": 3.4
+  },
+  "fpHandTransform": {
+    "rotation": { "x": 0, "y": 22, "z": 0 },
+    "origin": { "x": 0.5, "y": 0.1, "z": 0.5 },
+    "scale": 1.8
+  },
+  "tpHandTransform": {
+    "translation": { "x": -0.66, "y": 0, "z": -0.51 },
+    "rotation": { "x": -77, "y": 59, "z": -1 },
+    "origin": { "x": 0.5, "y": 0, "z": 0.5 },
+    "scale": 0.73
+  }
+}

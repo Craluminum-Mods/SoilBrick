@@ -1,0 +1,24 @@
+[
+  {
+    "ingredientPattern": "SSS,GGG",
+    "ingredients": {
+      "G": { "type": "block", "code": "game:soil-*-none", "allowedVariants": ["verylow", "low", "medium"] },
+      "S": { "type": "item", "code": "game:drygrass" }
+    },
+    "width": 3,
+    "height": 2,
+    "recipeGroup": 2,
+    "output": { "type": "item", "code": "sbrick-strawbedding-novar-nostone-nofert", "quantity": 16 }
+  },
+  {
+    "ingredientPattern": "SSS,GGG",
+    "ingredients": {
+      "G": { "type": "item", "code": "sbrick-soil-novar-nostone-*", "quantity": 4, "allowedVariants": ["verylow", "low", "medium"] },
+      "S": { "type": "item", "code": "game:drygrass" }
+    },
+    "width": 3,
+    "height": 2,
+    "recipeGroup": 3,
+    "output": { "type": "item", "code": "sbrick-strawbedding-novar-nostone-nofert", "quantity": 16 }
+  }
+]

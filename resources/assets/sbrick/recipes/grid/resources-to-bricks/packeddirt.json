@@ -1,0 +1,22 @@
+[
+  {
+    "ingredientPattern": "GGG,GGG",
+    "ingredients": {
+      "G": { "type": "block", "code": "game:soil-*-none", "allowedVariants": ["verylow", "low", "medium"] }
+    },
+    "width": 3,
+    "height": 2,
+    "recipeGroup": 2,
+    "output": { "type": "item", "code": "sbrick-packeddirt-novar-nostone-nofert", "quantity": 24 }
+  },
+  {
+    "ingredientPattern": "GGG,GGG",
+    "ingredients": {
+      "G": { "type": "item", "code": "sbrick-soil-novar-nostone-*", "allowedVariants": ["verylow", "low", "medium"] }
+    },
+    "width": 3,
+    "height": 2,
+    "recipeGroup": 3,
+    "output": { "type": "item", "code": "sbrick-packeddirt-novar-nostone-nofert", "quantity": 6 }
+  }
+]

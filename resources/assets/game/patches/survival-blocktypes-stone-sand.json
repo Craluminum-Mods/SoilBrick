@@ -1,0 +1,17 @@
+[
+  {
+    "op": "add",
+    "path": "/drops",
+    "value": [
+      {
+        "type": "item",
+        "code": "sbrick:sbrick-sand-novar-{rock}-nofert",
+        "quantity": {
+          "avg": 4,
+          "var": 0
+        }
+      }
+    ],
+    "file": "blocktypes/stone/sand.json"
+  }
+]

@@ -1,0 +1,24 @@
+[
+  {
+    "ingredientPattern": "BB,BB",
+    "ingredients": {
+      "B": { "type": "item", "code": "sbrick-cob-novar-nostone-nofert" }
+    },
+    "width": 2,
+    "height": 2,
+    "recipeGroup": 1,
+    "output": { "type": "block", "code": "game:cob-none" }
+  },
+  {
+    "ingredientPattern": "SF",
+    "ingredients": {
+      "F": { "type": "block", "code": "game:cob-none" },
+      "S": { "type": "item", "code": "game:shovel-*", "isTool": true }
+    },
+    "shapeless": true,
+    "width": 1,
+    "height": 2,
+    "recipeGroup": 1,
+    "output": { "type": "item", "code": "sbrick-cob-novar-nostone-nofert", "quantity": 4 }
+  }
+]

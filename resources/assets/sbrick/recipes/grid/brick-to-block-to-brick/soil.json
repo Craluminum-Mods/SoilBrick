@@ -1,0 +1,24 @@
+[
+  {
+    "ingredientPattern": "BB,BB",
+    "ingredients": {
+      "B": { "type": "item", "code": "sbrick-soil-novar-nostone-*", "name": "fertility" }
+    },
+    "width": 2,
+    "height": 2,
+    "recipeGroup": 1,
+    "output": { "type": "block", "code": "game:soil-{fertility}-none" }
+  },
+  {
+    "ingredientPattern": "SF",
+    "ingredients": {
+      "F": { "type": "block", "code": "game:soil-*-none", "name": "fertility" },
+      "S": { "type": "item", "code": "game:shovel-*", "isTool": true }
+    },
+    "shapeless": true,
+    "width": 1,
+    "height": 2,
+    "recipeGroup": 1,
+    "output": { "type": "item", "code": "sbrick-soil-novar-nostone-{fertility}", "quantity": 4 }
+  }
+]

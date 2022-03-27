@@ -1,0 +1,11 @@
+{
+  "ingredientPattern": "L,S",
+  "ingredients": {
+    "L": { "type": "item", "code": "game:stone-*", "name": "rock", "quantity": 4 },
+    "S": { "type": "item", "code": "sbrick-soil-novar-nostone-*", "quantity": 4 }
+  },
+  "recipeGroup": 2,
+  "width": 1,
+  "height": 2,
+  "output": { "type": "block", "code": "game:stonepath-free" }
+}

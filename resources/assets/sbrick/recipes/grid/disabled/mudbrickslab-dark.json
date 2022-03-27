@@ -1,0 +1,41 @@
+[
+  {
+    "enabled": false,
+    "ingredientPattern": "CLC,G_G",
+    "ingredients": {
+      "G": { "type": "item", "code": "game:drygrass", "quantity": 2 },
+      "C": { "type": "item", "code": "game:clay-*" },
+      "L": { "type": "block", "code": "game:soil-*-none", "allowedVariants": ["low", "medium"] }
+    },
+    "name": "mudbrick",
+    "width": 3,
+    "height": 2,
+    "output": { "type": "block", "code": "game:mudbrickslab-dark-down-free", "quantity": 4 }
+  },
+  {
+    "enabled": false,
+    "ingredientPattern": "CLC,G_G",
+    "ingredients": {
+      "G": { "type": "item", "code": "game:drygrass", "quantity": 2 },
+      "C": { "type": "item", "code": "game:clay-*" },
+      "L": { "type": "item", "code": "sbrick-soil-novar-nostone-*", "quantity": 4, "allowedVariants": ["low", "medium"] }
+    },
+    "width": 3,
+    "height": 2,
+    "recipeGroup": 2,
+    "output": { "type": "block", "code": "game:mudbrickslab-dark-down-free", "quantity": 4 }
+  },
+  {
+    "enabled": false,
+    "ingredientPattern": "LCG",
+    "ingredients": {
+      "G": { "type": "item", "code": "game:drygrass", "quantity": 2 },
+      "C": { "type": "item", "code": "game:clay-*" },
+      "L": { "type": "item", "code": "sbrick-soil-novar-nostone-*", "quantity": 2, "allowedVariants": ["low", "medium"] }
+    },
+    "width": 3,
+    "height": 1,
+    "recipeGroup": 3,
+    "output": { "type": "block", "code": "game:mudbrickslab-dark-down-free", "quantity": 2 }
+  }
+]
