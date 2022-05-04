@@ -3,6 +3,6 @@
     "op": "add",
     "path": "/enabled",
     "value": false,
-    "file": "recipes/grid/drypackeddirt.json"
+    "file": "game:recipes/grid/strawbedding.json"
   }
 ]

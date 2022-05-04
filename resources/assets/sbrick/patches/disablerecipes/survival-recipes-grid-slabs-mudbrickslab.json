@@ -3,6 +3,6 @@
     "op": "replace",
     "path": "/enabled",
     "value": false,
-    "file": "recipes/grid/slabs/mudbrickslab.json"
+    "file": "game:recipes/grid/slabs/mudbrickslab.json"
   }
 ]

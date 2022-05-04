@@ -3,17 +3,17 @@
     "op": "replace",
     "path": "/drops/0/code",
     "value": "sbrick:sbrick-soil-novar-nostone-{fertility}",
-    "file": "blocktypes/soil/soil.json"
+    "file": "game:blocktypes/soil/soil.json"
   },
   {
     "op": "remove",
     "path": "/drops/0/quantity/avg",
-    "file": "blocktypes/soil/soil.json"
+    "file": "game:blocktypes/soil/soil.json"
   },
   {
     "op": "remove",
     "path": "/drops/0/quantity/var",
-    "file": "blocktypes/soil/soil.json"
+    "file": "game:blocktypes/soil/soil.json"
   },
   {
     "op": "add",
@@ -22,7 +22,7 @@
       "@.*(compost|high).*": 4,
       "*": 3.5
     },
-    "file": "blocktypes/soil/soil.json"
+    "file": "game:blocktypes/soil/soil.json"
   },
   {
     "op": "add",
@@ -31,12 +31,12 @@
       "@.*(compost|high).*": 0,
       "*": 0.5
     },
-    "file": "blocktypes/soil/soil.json"
+    "file": "game:blocktypes/soil/soil.json"
   },
   {
     "op": "replace",
     "path": "/drops/0/type",
     "value": "item",
-    "file": "blocktypes/soil/soil.json"
+    "file": "game:blocktypes/soil/soil.json"
   }
 ]

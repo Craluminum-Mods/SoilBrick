@@ -12,6 +12,6 @@
         }
       }
     ],
-    "file": "blocktypes/stone/gravel.json"
+    "file": "game:blocktypes/stone/gravel.json"
   }
 ]

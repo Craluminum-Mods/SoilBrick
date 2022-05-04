@@ -2,25 +2,25 @@
   {
     "op": "replace",
     "path": "/drops/0/code",
-    "value": "sbrick:sbrick-mud-{type}-nostone-nofert",
-    "file": "blocktypes/soil/mudbrick.json"
+    "value": "sbrick:sbrick-cob-novar-nostone-nofert",
+    "file": "game:blocktypes/soil/cob.json"
   },
   {
     "op": "replace",
     "path": "/drops/0/quantity/avg",
     "value": 3.5,
-    "file": "blocktypes/soil/mudbrick.json"
+    "file": "game:blocktypes/soil/cob.json"
   },
   {
     "op": "replace",
     "path": "/drops/0/quantity/var",
     "value": 0.5,
-    "file": "blocktypes/soil/mudbrick.json"
+    "file": "game:blocktypes/soil/cob.json"
   },
   {
     "op": "replace",
     "path": "/drops/0/type",
     "value": "item",
-    "file": "blocktypes/soil/mudbrick.json"
+    "file": "game:blocktypes/soil/cob.json"
   }
 ]

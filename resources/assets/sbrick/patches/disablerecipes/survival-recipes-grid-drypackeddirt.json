@@ -3,6 +3,6 @@
     "op": "add",
     "path": "/enabled",
     "value": false,
-    "file": "recipes/grid/packeddirt.json"
+    "file": "game:recipes/grid/drypackeddirt.json"
   }
 ]

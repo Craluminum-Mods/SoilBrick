@@ -3,6 +3,6 @@
     "op": "replace",
     "path": "/enabled",
     "value": false,
-    "file": "recipes/grid/cob.json"
+    "file": "game:recipes/grid/cob.json"
   }
 ]

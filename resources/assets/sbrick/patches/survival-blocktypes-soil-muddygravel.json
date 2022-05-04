@@ -5,13 +5,13 @@
     "value": [
       {
         "type": "item",
-        "code": "sbrick:sbrick-drypackeddirt-novar-nostone-nofert",
+        "code": "sbrick:sbrick-muddygravel-novar-nostone-nofert",
         "quantity": {
           "avg": 3.5,
           "var": 0.5
         }
       }
     ],
-    "file": "blocktypes/soil/aridpackeddirt.json"
+    "file": "game:blocktypes/soil/muddygravel.json"
   }
 ]

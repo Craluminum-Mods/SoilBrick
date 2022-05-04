@@ -5,13 +5,13 @@
     "value": [
       {
         "type": "item",
-        "code": "sbrick:sbrick-packeddirt-novar-nostone-nofert",
+        "code": "sbrick:sbrick-strawbedding-novar-nostone-nofert",
         "quantity": {
           "avg": 3.5,
           "var": 0.5
         }
       }
     ],
-    "file": "blocktypes/soil/packeddirt.json"
+    "file": "game:blocktypes/soil/strawbedding.json"
   }
 ]
